@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "innovation-idea-submission-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/innovationIdeaSubmission/InnovationIdeaSubmissionWebPart.js",
+          "manifest": "./src/webparts/innovationIdeaSubmission/InnovationIdeaSubmissionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "mainJS": {
+      "path": "./src/webparts/js/main.js",
+      "globalName": "mainJS"
+    },
+    "bootstrap": {
+      "path": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+      "globalName": "bootstrap",
+      "globalDependencies": [
+        "jQuery"
+      ]
+    }
+  },
+  "localizedResources": {
+    "InnovationIdeaSubmissionWebPartStrings": "lib/webparts/innovationIdeaSubmission/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

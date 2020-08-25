@@ -1,0 +1,81 @@
+label{
+
+	font-weight: bolder;
+	color: black;
+}
+
+input[type=button]
+{
+	background-color:#276581;
+	color:whitesmoke;
+	border-radius:20px; 
+	font-size: 18pt;
+	border: none; 
+	padding: 15px 32px; 
+	text-align: center; 
+	text-decoration: none; 
+	display: inline-block; 
+	margin: 4px 2px; 
+	cursor: pointer;
+    
+}
+
+input[type=number]
+{
+	text-align: center;
+}
+        
+span{
+	font-size: smaller;
+	color: black;
+}
+
+p{
+	color: black;
+	font-size: smaller;
+}
+
+.row_override
+{
+	background-color:transparent !important;
+}
+
+
+#button_addrow
+{
+	float:right !important;
+	font-size: 12pt !important;
+	padding: 10px 16px !important;
+}
+
+
+table{
+	width:100%; 
+	font-size:smallest;
+}
+
+th{
+	border: none; 
+	text-align:center;
+}
+
+td input[type=textbox]{
+	max-height:20px;
+
+}
+
+td input[type=number]{
+	max-height:20px;
+	text-align:center;
+}
+
+.span_checkbox
+{
+	font-weight: bolder;
+}
+
+.label_smaller
+{
+	font-weight: bolder;
+	font-size:8pt
+}
